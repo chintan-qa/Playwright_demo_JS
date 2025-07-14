@@ -62,7 +62,7 @@ All page-specific locators and actions are defined inside `pageobjects/` for mai
 
 Example: signin_object.js  
 javascript
-class SignInPage {
+```class SignInPage {
   constructor(page) {
     this.page = page;
     this.usernameInput = page.locator('input[name="username"]');
@@ -88,7 +88,7 @@ class SignInPage {
   }
 }
 
-module.exports = SignInPage;
+module.exports = SignInPage;```
 
 
 🔄 Constants
