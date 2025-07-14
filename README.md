@@ -20,23 +20,33 @@ It is designed with industry-standard best practices for structure, maintainabil
 ✅ Custom assertions and smart URL handling
 
 ---
-📁 Folder Structure
+📁 Project  Folder Structure
 
-playwright-project/
-├── .github/workflows/ # GitHub CI/CD workflows
-│ └── playwright.yml
-├── constants/ # Common constants (messages, selectors, URLs)
-│ └── messages.js
-├── datafactory/ # Data factory for generating dynamic test data
-│ └── userFactory.js
-├── pageobjects/ # Page Object classes
-│ └── signin_object.js
-├── tests/ # Test specs
-│ └── SignIn.spec.js
-├── playwright.config.js # Playwright configuration (baseURL, timeouts, etc.)
-├── package.json # NPM dependencies and scripts
-└── README.md # Project documentation
+.github/workflows/
 
+playwright.yml – GitHub CI/CD workflow file
+
+constants/
+
+messages.js – Common constants (messages, selectors, URLs)
+
+datafactory/
+
+userFactory.js – Data factory for generating dynamic test data
+
+pageobjects/
+
+signin_object.js – Page Object Model class for Sign In page
+
+tests/
+
+SignIn.spec.js – Sample test spec
+
+playwright.config.js – Playwright configuration (baseURL, timeouts, etc.)
+
+package.json – NPM dependencies and scripts
+
+README.md – Project documentation
 
 🛠 Tech Stack
 
