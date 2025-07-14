@@ -1,6 +1,4 @@
-👤 Author
-Chintan Bhatt
-QA Automation Engineer
+
 
 
 # 🔐 ParaBank UI Test Automation – Playwright Framework
@@ -129,4 +127,8 @@ npx playwright show-report
 
 ✅ GitHub Actions for CI/CD
 
+
+```👤 Author
+Chintan Bhatt
+QA Automation Engineer```
 
