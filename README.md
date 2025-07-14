@@ -93,18 +93,11 @@ module.exports = SignInPage;```
 
 🔄 Constants
 Example constants/messages.js:
-
-js
-Copy
-Edit
 module.exports = {
   LOGIN_FAILURE: 'Please enter a username and password.',
 };
 Usage in test:
 
-js
-Copy
-Edit
 const CONSTANTS = require('../constants/messages');
 await signInPage.verifyLoginError(CONSTANTS.LOGIN_FAILURE);
 
