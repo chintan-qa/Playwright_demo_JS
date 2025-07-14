@@ -24,23 +24,23 @@ It is designed with industry-standard best practices for structure, maintainabil
 
 .github/workflows/
 
-playwright.yml – GitHub CI/CD workflow file
+-playwright.yml – GitHub CI/CD workflow file
 
 constants/
 
-messages.js – Common constants (messages, selectors, URLs)
+-messages.js – Common constants (messages, selectors, URLs)
 
 datafactory/
 
-userFactory.js – Data factory for generating dynamic test data
+-userFactory.js – Data factory for generating dynamic test data
 
 pageobjects/
 
-signin_object.js – Page Object Model class for Sign In page
+-signin_object.js – Page Object Model class for Sign In page
 
 tests/
 
-SignIn.spec.js – Sample test spec
+-SignIn.spec.js – Sample test spec
 
 playwright.config.js – Playwright configuration (baseURL, timeouts, etc.)
 
